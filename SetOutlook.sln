@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SetOutlook", "SetOutlook\SetOutlook.vcxproj", "{2F4DDECA-82A6-4AE6-842E-09197F01C1C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7DEDAB50-923D-4C76-842D-F1E4C5001FF5} = {7DEDAB50-923D-4C76-842D-F1E4C5001FF5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Seed", "Seed\Seed.vcxproj", "{7DEDAB50-923D-4C76-842D-F1E4C5001FF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F4DDECA-82A6-4AE6-842E-09197F01C1C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F4DDECA-82A6-4AE6-842E-09197F01C1C2}.Debug|Win32.Build.0 = Debug|Win32
+		{2F4DDECA-82A6-4AE6-842E-09197F01C1C2}.Release|Win32.ActiveCfg = Release|Win32
+		{2F4DDECA-82A6-4AE6-842E-09197F01C1C2}.Release|Win32.Build.0 = Release|Win32
+		{7DEDAB50-923D-4C76-842D-F1E4C5001FF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7DEDAB50-923D-4C76-842D-F1E4C5001FF5}.Debug|Win32.Build.0 = Debug|Win32
+		{7DEDAB50-923D-4C76-842D-F1E4C5001FF5}.Release|Win32.ActiveCfg = Release|Win32
+		{7DEDAB50-923D-4C76-842D-F1E4C5001FF5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
